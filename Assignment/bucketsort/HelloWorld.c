@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <mpi.h>
-
+/* http://condor.cc.ku.edu/~grobe/docs/intro-MPI-C.shtml
+   tutorial from above link
+*/
 void main(int argc, char **argv)
 {
 	int ierr, num_processes, id;
